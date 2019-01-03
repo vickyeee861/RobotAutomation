@@ -9,7 +9,7 @@ ${BROWSER}        FIREFOX
 
 *** Test Cases ***
 [TC-001]-Launching the browser with freshfone.freshpo.com
-    [Documentation]    [Document] vicky Verify whether Search text field is present, "New Support Ticket" and "Check ticket status" links are present, Home,Solutions,Forums tabs are present. Login,signup links are present, freshfone and image logo are present. "How can we help you today" text are present.
+    [Documentation]    [Document] Verify whether Search text field is present, "New Support Ticket" and "Check ticket status" links are present, Home,Solutions,Forums tabs are present. Login,signup links are present, freshfone and image logo are present. "How can we help you today" text are present.
     [Tags]    sample
     Page Should Contain Textfield    id=support-search-input
     Page Should Contain Element    link=New support ticket
